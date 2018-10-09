@@ -20,7 +20,6 @@ main {
   padding-right: 20px;
 }
 
-/* TODO taka ætti padding af main þegar komið er fyrir ofan hámarksbreidd */
 
 h1 {
   text-align: center;
@@ -40,7 +39,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* grid fyrir efni, setja þarf upp í html */
 
 .grid__row {
   display: flex;
@@ -59,11 +57,6 @@ h1 {
   
 }
 
-/* TODO setja upp grid fyrir >= 1000px */
-
-/* TODO koma mynd fyrir á öðrum stað í < 1000px */
-
-/* grid fyrir cards */
 
 .cards{
   word-break: break-all;
@@ -93,7 +86,6 @@ h1 {
   flex-direction: row;
   margin-top: 10px;
   margin-bottom: 10px;
- /* VANTAR AÐ LAGA BIL !!! */
 }
 
 .card__tag{
@@ -101,7 +93,7 @@ h1 {
   margin-right: 10px;
 }
 
-/* byrja hér að breyta*/
+
 .card__row{
   display: flex;
   flex-wrap: wrap;
@@ -112,9 +104,8 @@ h1 {
   padding-right: 10px;
   padding-left: 10px;
   width: 100%;
- /* margin-bottom: 20px;*/
+
 }
-/*hætti að breyta*/
  
 @media(min-width: 700px){
   .cards {
@@ -138,8 +129,7 @@ h1 {
     padding-right: -10px;
   
   }
-  /* LAGA BIL A MILLI*/
-
+  
   .card {
     display: flex;
     flex-direction: column;
@@ -244,16 +234,3 @@ h1 {
   padding-right: unset;
   }
 }
-
-
-/* TODO útfæra grid fyrir cards */
-
-/*
-  .card kemur óbreytt úr sýnilausn á verkefni 5 fyrir utan responsive stíla og
-  að það fær `height: 100%;`
-  Sýnilausn verður gefin út við lok dags miðvikudaginn 3. okt
-*/
-
-/* TODO .card stílar úr v5 (eða sýnilausn...) */
-
-/* TODO responsive stílar fyrir .card */
